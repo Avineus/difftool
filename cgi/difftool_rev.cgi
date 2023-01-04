@@ -85,7 +85,7 @@ fn_execute_svn_cmd()
     SERVER=svl-junos-d011
     LOCAL_SB_NAME=.
     USR_NAME=antonyr
-    URL=https://svl-svn.juniper.net/svn/junos-2009/
+    URL=https://svl-svn.server.net/svn/branch-2009/
 
     if [ -n "$SERVER" ] && [ -n "$LOCAL_SB_NAME" ] && [ -n "$USR_NAME" ]; then
         if [ "$HTML" = "yes" ] ; then
